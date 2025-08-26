@@ -9,7 +9,7 @@ This script automates the process of recovering Android lockscreen passwords. By
 *   **🔍 Hash and Salt Extraction**: Automatically retrieves the password hash from `password.key` and the salt from `locksettings.db`.
 *   **📋 Policy-Aware Cracking**: Parses `device_policies.xml` (if provided) to apply password complexity constraints (minimum length, required character types) for more efficient cracking.
 *   **🚀 Hashcat Integration**: Leverages the powerful `hashcat` tool for GPU-accelerated brute-force attacks, significantly speeding up the cracking process.
-*   **🐍 Python Brute-Force Fallback**: Includes a robust, pure-Python brute-force implementation for environments where `hashcat` is not available or preferred.
+*   **🐍 Python Brute-Force Fallback**: Includes a pure-Python brute-force implementation for environments where `hashcat` is not available or preferred.
 
 ## Getting Started
 
