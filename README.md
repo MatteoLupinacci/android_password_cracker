@@ -1,5 +1,14 @@
 # Android Lockscreen Password Cracker 🔓
 
+## Disclaimer ⚠️
+
+This project is intended solely for academic, educational, and research purposes in the field of cybersecurity. It is designed for use in:
+*	🧑‍🎓 Learning and training (e.g., university courses, security research, labs)
+*	🎯 Controlled environments such as CTFs and legal penetration testing platforms
+*	🔍 Forensic analysis or security testing only on devices you own or are explicitly authorized to test
+
+The author assumes no responsibility for improper or unlawful use of the software. ❌ Any misuse of this tool for illegal activities, unauthorized access, or violation of privacy is strictly prohibited. Use this tool responsibly and ethically. 🔒
+
 ## Overview
 
 This script automates the process of recovering Android lockscreen passwords. By analyzing crucial system files like `password.key`, `locksettings.db`, and `device_policies.xml`, it extracts cryptographic components and attempts to crack the password using either the powerful `hashcat` utility for accelerated speed or a Python-based brute-force fallback.
